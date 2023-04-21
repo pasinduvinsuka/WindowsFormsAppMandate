@@ -33,8 +33,17 @@ namespace WindowsFormsApp1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            insertBtn.Region = Region.FromHrgn(CreateRoundRectRgn(0,0,insertBtn.Width,
-                insertBtn.Height,30,30));
+            //
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
