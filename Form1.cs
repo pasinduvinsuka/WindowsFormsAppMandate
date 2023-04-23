@@ -126,17 +126,35 @@ namespace WindowsFormsApp1
 
         }
 
-        private void toolStripComboBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void toolStripComboBox1_Click_1(object sender, EventArgs e)
         {
 
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtSearch_Leave(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == "")
+            {
+                txtSearch.Text = "Search";
+
+            }
+        }
+
+        private void txtSearch_Enter(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == "Search")
+            {
+                txtSearch.Text = "";
+                txtSearch.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtSearch_MouseClick(object sender, MouseEventArgs e)
         {
 
         }
