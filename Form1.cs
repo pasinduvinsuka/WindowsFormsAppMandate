@@ -154,9 +154,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void txtSearch_MouseClick(object sender, MouseEventArgs e)
-        {
-
-        }
+        
     }
 }
